@@ -1,0 +1,206 @@
+header {
+	background-color: #dedede;
+	border-bottom: 1px solid #fff;
+}
+
+body {
+      background-color: #5C9399
+    }
+
+h1 {
+	color: #121212;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 8px;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+h2 {
+	color: #002244;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin: 16px;
+	font-size: 20px;
+	font-weight: bold;
+}
+h3 {
+	color: #4D0A0B;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase;
+	margin: 16px;
+	font-weight: bold;
+	font-size: 12px;
+}
+p {
+	color: #222;
+	margin: 16px;
+	line-height: 20px;
+	font-family: georgia;
+}
+
+ul {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+ol{   
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	font-family: "Kalam", sans-serif;
+	
+
+}
+
+li {
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+	font-size: 20px;
+	float: left;
+	
+	
+}
+
+li a:hover:not(.active) {
+  background-color: #444;
+}
+
+.active {
+  background-color:#3A5E62 ;
+}
+
+
+
+
+
+div {
+	height: 310px;
+	width: 100%;
+	background-color: #C9C9C9;
+	
+	background-position: center;
+}
+span {
+    font-size: 280px;
+    color: black;
+    opacity: 0.5;
+    margin-top: 20px;
+    text-align: center; 
+    display: block;
+}
+#profile-photo {
+	width: 160px;
+	float: right;
+	margin-left: 20px;
+	padding: 1px;
+	border: 1px solid #ccc;
+}
+
+
+	table {
+		font-family: sans-serif;
+		border-collapse: collapse;
+		width: 90%;
+		height: 50%;
+		margin: auto;
+
+		
+	}
+.text-container {
+      background-color: whitesmoke; /* White background color */
+      padding: 20px; /* Padding inside the container */
+      margin: 20px auto; /* Center the container with a margin */
+      width: 74%;
+    }
+
+.table-container {
+      position: relative;
+      width: 75%;
+      margin: 20px auto; /* Center the box with a margin */
+      border: 2px solid #ccc; /* Border around the box */
+      padding: 10px; /* Padding inside the box */
+	  height: 225px ;
+		background-color: whitesmoke
+    }
+	
+	td,th {
+		border: 3px solid #000000;
+		text-align: center;
+		padding: 8px;
+		
+	}
+
+th {font-weight: bold;}
+
+	
+	tr:nth-child(even) {
+		background-color: #DDDDDD;
+	}
+
+	iframe {
+		display: block; 
+		margin: 45px ;
+
+	}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 300px;
+  border: 0px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+  .container-wrapper {
+    display: flex;
+    justify-content: space-between;
+	  background: #5C9399
+  }
+
